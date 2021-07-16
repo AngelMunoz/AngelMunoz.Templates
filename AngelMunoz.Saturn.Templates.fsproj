@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- General info -->
+    <Description>dotnet new templates of Saturn for my own use, feel free to contribute and improve if necessary</Description>
+    <Copyright>Copyright 2020 Angel D. Munoz</Copyright>
+    <Authors>Angel Munoz</Authors>
+
+    <!-- Build config -->
+    <TargetFramework>net5.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+
+
+    <!-- NuGet config -->
+    <PackageType>Template</PackageType>
+    <PackageId>AngelMunoz.Saturn.Templates</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageTags>saturn;web;app;dotnet;new;template;F#</PackageTags>
+    <PackageProjectUrl>https://github.com/AngelMunoz/Saturn.Templates</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/AngelMunoz/Saturn.Templates</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

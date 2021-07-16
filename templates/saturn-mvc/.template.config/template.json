@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "identity": "Saturn.Templates.Mvc",
+    "shortName": "saturn-mvc",
+    "name": "Saturn MVC",
+    "author": "Angel D. Munoz",
+    "classifications": [
+        "Web",
+        "F#",
+        "Saturn",
+        "MVC'ish"
+    ],
+    "type": {
+        "language": "F#"
+    },
+    "tags": {
+        "type": "project",
+        "language": "F#"
+    },
+    "sourceName": "AppName",
+    "preferNameDirectory": true
+}

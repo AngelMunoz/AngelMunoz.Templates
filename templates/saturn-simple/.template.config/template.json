@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "identity": "Saturn.Templates.Simple",
+    "shortName": "saturn-simple",
+    "name": "Saturn Simple",
+    "author": "Angel D. Munoz",
+    "classifications": [
+        "Web",
+        "F#",
+        "Saturn"
+    ],
+    "type": {
+        "language": "F#"
+    },
+    "tags": {
+        "type": "project",
+        "language": "F#"
+    },
+    "sourceName": "AppName",
+    "preferNameDirectory": true
+}
