@@ -2,8 +2,6 @@
 
 open Giraffe
 
-open FSharp.Control.Tasks
-
 open Saturn
 open Saturn.Endpoint
 open Microsoft.AspNetCore.Http

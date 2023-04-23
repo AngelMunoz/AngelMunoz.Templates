@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,11 +9,6 @@
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="Saturn" Version="0.15.*" />
-    <PackageReference Include="Ply" Version="0.3.*" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <PackageReference Update="FSharp.Core" Version="5.0.2" />
+    <PackageReference Include="Saturn" Version="0.16.*" />
   </ItemGroup>
 </Project>

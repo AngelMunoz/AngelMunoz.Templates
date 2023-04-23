@@ -1,5 +1,3 @@
-module AppName.Program
-
 open Saturn
 open Saturn.Endpoint
 
@@ -19,13 +17,10 @@ let defaultRouter =
         deletef "/api/todos/%i" Todos.Delete
     }
 
-[<EntryPoint>]
-let main args =
-    let app =
-        application {
-            use_developer_exceptions
-            use_endpoint_router defaultRouter
-        }
+let app =
+    application {
+        use_developer_exceptions
+        use_endpoint_router defaultRouter
+    }
 
-    run app
-    0
+run app

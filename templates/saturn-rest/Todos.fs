@@ -5,7 +5,6 @@ open Microsoft.AspNetCore.Http
 
 open Giraffe
 open Saturn
-open FSharp.Control.Tasks
 
 type Todo = { id: int; text: string; isDone: bool }
 

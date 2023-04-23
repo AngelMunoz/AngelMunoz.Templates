@@ -16,7 +16,7 @@
     <!-- NuGet config -->
     <PackageType>Template</PackageType>
     <PackageId>AngelMunoz.Saturn.Templates</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.1.0</PackageVersion>
     <PackageTags>saturn;web;app;dotnet;new;template;F#</PackageTags>
     <PackageProjectUrl>https://github.com/AngelMunoz/AngelMunoz.Saturn.Templates</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

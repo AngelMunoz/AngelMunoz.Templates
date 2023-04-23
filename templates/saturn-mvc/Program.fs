@@ -1,5 +1,3 @@
-module AppName.Program
-
 open Giraffe
 open Saturn
 open Saturn.Endpoint
@@ -30,13 +28,10 @@ let browserRouter =
 
 let appRouter = router { forward "" browserRouter }
 
-[<EntryPoint>]
-let main args =
-    let app =
-        application {
-            use_developer_exceptions
-            use_endpoint_router appRouter
-            use_static "wwwroot"
-        }
-    run app
-    0
+let app =
+    application {
+        use_developer_exceptions
+        use_endpoint_router appRouter
+        use_static "wwwroot"
+    }
+run app
