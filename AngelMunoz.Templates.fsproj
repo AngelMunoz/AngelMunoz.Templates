@@ -15,14 +15,14 @@
 
     <!-- NuGet config -->
     <PackageType>Template</PackageType>
-    <PackageId>AngelMunoz.Saturn.Templates</PackageId>
+    <PackageId>AngelMunoz.Templates</PackageId>
     <PackageVersion>1.1.0</PackageVersion>
     <PackageTags>saturn;web;app;dotnet;new;template;F#</PackageTags>
-    <PackageProjectUrl>https://github.com/AngelMunoz/AngelMunoz.Saturn.Templates</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/AngelMunoz/AngelMunoz.Templates</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/AngelMunoz/AngelMunoz.Saturn.Templates</RepositoryUrl>
+    <RepositoryUrl>https://github.com/AngelMunoz/AngelMunoz.Templates</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

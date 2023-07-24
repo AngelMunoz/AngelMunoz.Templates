@@ -1,6 +1,6 @@
 {
     "$schema": "http://json.schemastore.org/template",
-    "identity": "Saturn.Templates.Mvc",
+    "identity": "AngeMunoz.Web.Templates.SaturnMvc",
     "shortName": "saturn-mvc",
     "name": "Saturn MVC",
     "author": "Angel D. Munoz",

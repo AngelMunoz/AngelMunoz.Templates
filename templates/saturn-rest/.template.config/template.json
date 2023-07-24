@@ -1,6 +1,6 @@
 {
     "$schema": "http://json.schemastore.org/template",
-    "identity": "Saturn.Templates.Rest",
+    "identity": "AngeMunoz.Web.Templates.SaturnRest",
     "shortName": "saturn-rest",
     "name": "Saturn Rest",
     "author": "Angel D. Munoz",
